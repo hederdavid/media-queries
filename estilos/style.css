@@ -34,7 +34,7 @@ main > h1 {
 
 /* Estilo das telas */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { /* Telas pequenas */
 
     body {
         background-image: url(../imagens/back-phone.jpg);
@@ -45,7 +45,7 @@ main > h1 {
 
 }
 
-@media screen and (min-width: 601px) and (max-width: 992px) {
+@media screen and (min-width: 601px) and (max-width: 992px) { /* Telas médias */
 
     body {
     background-image: url(../imagens/back-tablet.jpg);
@@ -56,7 +56,7 @@ main > h1 {
     }
 }
 
-@media screen and (min-width: 993px) and (max-width: 1200px){
+@media screen and (min-width: 993px) and (max-width: 1540px){
 
     body {
         background-image: url(../imagens/back-pc.jpg);
@@ -68,7 +68,7 @@ main > h1 {
 
 }
 
-@media screen and (min-width: 1201px){
+@media screen and (min-width: 1541px){
 
     body {
         background-image: url(../imagens/back-tv.jpg);
