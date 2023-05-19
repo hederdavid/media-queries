@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* Estilo de impressão */
+
+main {
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black;
+}
+
+main::after {
+    content: 'Impresso do site Media Queries de Heder David';
+}
+
